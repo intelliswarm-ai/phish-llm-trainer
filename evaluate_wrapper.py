@@ -4,10 +4,10 @@ import os
 import sys
 os.environ['OTEL_SDK_DISABLED'] = 'true'
 
-# Add src to path for direct imports
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+# Add project root to path to enable proper imports
+sys.path.insert(0, os.path.dirname(__file__))
 
-from evaluate import main
+from src.evaluate import main
 
 if __name__ == "__main__":
     main()
