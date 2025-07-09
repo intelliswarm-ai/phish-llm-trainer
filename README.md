@@ -171,6 +171,41 @@ Quick training results (1 epoch):
 
 These exceptional results demonstrate the effectiveness of DistilBERT for phishing email detection, achieving near-perfect performance even with minimal training.
 
+### Evaluation Results
+
+Full model evaluation on test set (12,373 samples):
+- **Accuracy**: 99.22%
+- **Precision**: 99.36%
+- **Recall**: 99.13%
+- **F1 Score**: 99.25%
+- **AUC-ROC**: 99.96%
+
+#### Confusion Matrix
+![Confusion Matrix](evaluation_results/confusion_matrix.png)
+
+The confusion matrix shows:
+- True Negatives (Legitimate correctly classified): 5,899
+- False Positives (Legitimate misclassified as Phishing): 41
+- False Negatives (Phishing misclassified as Legitimate): 56
+- True Positives (Phishing correctly classified): 6,377
+
+#### ROC Curve
+![ROC Curve](evaluation_results/roc_curve.png)
+
+The ROC curve demonstrates exceptional model performance with an AUC of 0.9996, indicating near-perfect discrimination between phishing and legitimate emails.
+
+#### Detailed Classification Report
+```
+              precision    recall  f1-score   support
+
+  Legitimate       0.99      0.99      0.99      5940
+    Phishing       0.99      0.99      0.99      6433
+
+    accuracy                           0.99     12373
+   macro avg       0.99      0.99      0.99     12373
+weighted avg       0.99      0.99      0.99     12373
+```
+
 ## Training Configuration
 
 Default hyperparameters:
