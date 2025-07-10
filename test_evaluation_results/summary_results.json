@@ -1,0 +1,127 @@
+[
+  {
+    "dataset": "CEAS_08.csv",
+    "samples": 39154,
+    "metrics": {
+      "accuracy": 0.9878428768452776,
+      "precision": 0.9895518284300248,
+      "recall": 0.988645728413149,
+      "f1": 0.9890985709050935,
+      "auc": 0.9983334312012453,
+      "confusion_matrix": [
+        [
+          17084,
+          228
+        ],
+        [
+          248,
+          21594
+        ]
+      ],
+      "support": {
+        "legitimate": 17312,
+        "phishing": 21842
+      }
+    }
+  },
+  {
+    "dataset": "Enron.csv",
+    "samples": 29767,
+    "metrics": {
+      "accuracy": 0.9687573487418953,
+      "precision": 0.9952171272395991,
+      "recall": 0.9379650829994276,
+      "f1": 0.9657433328421983,
+      "auc": 0.9982110085349639,
+      "confusion_matrix": [
+        [
+          15728,
+          63
+        ],
+        [
+          867,
+          13109
+        ]
+      ],
+      "support": {
+        "legitimate": 15791,
+        "phishing": 13976
+      }
+    }
+  },
+  {
+    "dataset": "Ling.csv",
+    "samples": 2859,
+    "metrics": {
+      "accuracy": 0.9615250087443162,
+      "precision": 1.0,
+      "recall": 0.759825327510917,
+      "f1": 0.8635235732009926,
+      "auc": 0.9980121092194119,
+      "confusion_matrix": [
+        [
+          2401,
+          0
+        ],
+        [
+          110,
+          348
+        ]
+      ],
+      "support": {
+        "legitimate": 2401,
+        "phishing": 458
+      }
+    }
+  },
+  {
+    "dataset": "Nazario.csv",
+    "samples": 1565,
+    "metrics": {
+      "accuracy": 0.8785942492012779,
+      "precision": 1.0,
+      "recall": 0.8785942492012779,
+      "f1": 0.935374149659864,
+      "auc": NaN,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          190,
+          1375
+        ]
+      ],
+      "support": {
+        "legitimate": 0,
+        "phishing": 1565
+      }
+    }
+  },
+  {
+    "dataset": "Nigerian_Fraud.csv",
+    "samples": 3332,
+    "metrics": {
+      "accuracy": 0.9186674669867947,
+      "precision": 1.0,
+      "recall": 0.9186674669867947,
+      "f1": 0.9576098858126075,
+      "auc": NaN,
+      "confusion_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          271,
+          3061
+        ]
+      ],
+      "support": {
+        "legitimate": 0,
+        "phishing": 3332
+      }
+    }
+  }
+]

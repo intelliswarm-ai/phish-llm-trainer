@@ -1,0 +1,21 @@
+{
+  "accuracy": 0.9186674669867947,
+  "precision": 1.0,
+  "recall": 0.9186674669867947,
+  "f1": 0.9576098858126075,
+  "auc": NaN,
+  "confusion_matrix": [
+    [
+      0,
+      0
+    ],
+    [
+      271,
+      3061
+    ]
+  ],
+  "support": {
+    "legitimate": 0,
+    "phishing": 3332
+  }
+}
